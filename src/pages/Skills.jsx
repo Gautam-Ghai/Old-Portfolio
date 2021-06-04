@@ -57,6 +57,13 @@ const Logo = styled.img`
 height: 25px;
 width: auto;
 `
+const PageHeader = styled(motion.p)`
+  color: ${({ theme }) => theme.text};
+  font-family: "Comic Sans MS", Helvetica, sans-serif;
+  font-size: 40px;
+  font-weight: bold;
+  text-align: center
+`
 
 function Skills() {
   return (
@@ -64,6 +71,7 @@ function Skills() {
     <MainConatiner
       id="SkillSet"
     >
+        <PageHeader>Skills</PageHeader>
         <Container maxWidth="lg" >
                 <Grid container spacing={3}>
                     <Grid item xs={12} md={6} lg={4}>
@@ -189,6 +197,18 @@ function Skills() {
                                 </ListItem>
                                 <ListItem>
                                     <Text primary="Confluence" />
+                                </ListItem>
+                                <ListItem>
+                                    <Text primary="WordPress" />
+                                </ListItem>
+                                <ListItem>
+                                    <Text primary="Terminalfour" />
+                                </ListItem>
+                                <ListItem>
+                                    <Text primary="Heroku" />
+                                </ListItem>
+                                <ListItem>
+                                    <Text primary="Netlify" />
                                 </ListItem>
                     </CardDisplay>
                     </Grid>

@@ -19,6 +19,13 @@ const CardDisplay = styled(Paper)`
   }
 
 `
+const PageHeader = styled.p`
+  color: ${({ theme }) => theme.text};
+  font-family: "Comic Sans MS", Helvetica, sans-serif;
+  font-size: 40px;
+  font-weight: bold;
+  text-align: center
+`
 
 class Blog extends Component {
     state = {
@@ -45,6 +52,7 @@ class Blog extends Component {
         )
         return (
             <MainConatiner id="Blog">
+                <PageHeader>Latest Articles</PageHeader>
                 <Container maxWidth="lg" >
                 <Grid container spacing={3}   >
                     {ShowArticles}
