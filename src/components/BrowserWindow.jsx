@@ -10,7 +10,7 @@ const Container = styled.div`
   width: 515px;
 
   @media (max-width: 1200px) {
-    width: 415px;
+    width: 380px;
   }
 `;
 
@@ -18,6 +18,7 @@ const Row = styled.div`
   padding: 5px;
   padding-bottom: 10px;
   background: ${({ theme }) => theme.text};
+  border: none;
   border-top-left-radius: 4px;
   border-top-right-radius: 4px;
   min-height: 18px;
@@ -62,8 +63,8 @@ const Image = styled.img`
   margin-bottom: 0px;
 
   @media (max-width: 1200px) {
-    height: 212px;
-    width: 409px;
+    height: 200px;
+    width: 374px;
   }
 `;
 
