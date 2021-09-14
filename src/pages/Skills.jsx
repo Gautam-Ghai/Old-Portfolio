@@ -59,7 +59,7 @@ width: auto;
 `
 const PageHeader = styled(motion.p)`
   color: ${({ theme }) => theme.text};
-  font-family: "Comic Sans MS", Helvetica, sans-serif;
+  font-family: "Source Sans Pro", sans-serif;
   font-size: 40px;
   font-weight: bold;
   text-align: center
@@ -195,16 +195,16 @@ function Skills() {
                                 <ListItem divider>
                                     <Text primary="Jira" />
                                 </ListItem>
-                                <ListItem>
+                                <ListItem divider>
                                     <Text primary="Confluence" />
                                 </ListItem>
-                                <ListItem>
+                                <ListItem divider>
                                     <Text primary="WordPress" />
                                 </ListItem>
-                                <ListItem>
+                                <ListItem divider>
                                     <Text primary="Terminalfour" />
                                 </ListItem>
-                                <ListItem>
+                                <ListItem divider>
                                     <Text primary="Heroku" />
                                 </ListItem>
                                 <ListItem>

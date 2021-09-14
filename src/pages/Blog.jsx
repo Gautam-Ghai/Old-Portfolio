@@ -21,7 +21,7 @@ const CardDisplay = styled(Paper)`
 `
 const PageHeader = styled.p`
   color: ${({ theme }) => theme.text};
-  font-family: "Comic Sans MS", Helvetica, sans-serif;
+  font-family: "Source Sans Pro", sans-serif;
   font-size: 40px;
   font-weight: bold;
   text-align: center

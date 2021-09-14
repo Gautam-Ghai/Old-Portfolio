@@ -1,5 +1,4 @@
 import React from 'react';
-import './App.css';
 import Main from './pages/Main';
 import { useDarkMode } from './utils/useDarkMode';
 import { ThemeProvider } from "styled-components"

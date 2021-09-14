@@ -4,7 +4,8 @@ import HomePage from './HomePage';
 import Projects from "./Projects"
 import styled from "styled-components"
 import Blog from './Blog';
-import Skills from "./Skills"
+import Skills from "./Skills";
+import Social from "../components/Social";
 
 const Container = styled.div`
 background-color: ${({ theme }) => theme.background};
@@ -18,6 +19,7 @@ const Main = (props) => {
                 <Projects />
                 <Skills />
                 <Blog />
+                <Social />
         </Container>
     );
 }
